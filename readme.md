@@ -23,7 +23,7 @@
 
 ## 🧩 Requirements
 
-- Python 3.7+  
+- Python 3.10+  
 - Hugging Face account and token (free)  
 
 ### Dependencies
@@ -33,7 +33,7 @@ The script automatically checks for and can install:
 - `torch`  
 - `torchaudio`  
 - `soundfile`  
-- `pyannote-audio>=3.1`  
+- `pyannote-audio=4.0.1`  
 - `openai-whisper`  
 
 ---
@@ -44,3 +44,4 @@ The script automatically checks for and can install:
 2. Make the script executable (Linux/Mac):
 ```bash
 chmod +x diarize_transcribe.py
+
