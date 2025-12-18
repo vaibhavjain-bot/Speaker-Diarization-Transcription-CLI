@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Speaker diarization + transcription CLI
 - Preloads audio into memory
